@@ -46,6 +46,10 @@ nav {
   color: #ea6c56;
 }
 
+.more {
+  display: none;
+}
+
 .dropdown {
   display: none;
   background-color: #fff;

@@ -1,0 +1,39 @@
+console.log('dziala');
+
+var name = 'world';
+console.log('world');
+
+var names = ['Daria', 'Kasia', 'Sylwia', 'Kinga'];
+console.log(names [1]);
+
+function sayHello(){
+  console.log('hello'+'world');
+}
+sayHello();
+
+function hurra(){
+  console.log('hurra!');
+}
+
+function buu(){
+  console.log('buu');
+}
+
+var a = 7;
+var b = 13;
+
+if (b > a) {
+  hurra();
+}
+
+if (a < b) {
+buu();
+}
+
+if (a !== b) {
+  hurra();
+}
+
+for (var i = 0; i <=names.length-1; i++){
+  console.log(names[i]);
+}
